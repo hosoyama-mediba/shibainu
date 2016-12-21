@@ -25,6 +25,7 @@ const nightmare = new Nightmare({
     width: 320,
     height: 568,
     show: false,
+    waitTimeout:　1000,
     switches: {
         'ignore-certificate-errors': true,
     },
